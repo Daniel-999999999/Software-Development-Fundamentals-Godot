@@ -43,7 +43,7 @@ __meta__ = {
 position = Vector2( -1.53629, 369.479 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Border_Left"]
-position = Vector2( -5.37704, -0.768158 )
+position = Vector2( -4.085, -2.061 )
 shape = SubResource( 1 )
 
 [node name="Border_Right" type="Area2D" parent="." groups=[
@@ -56,7 +56,7 @@ position = Vector2( -5.37704, -0.768158 )
 shape = SubResource( 1 )
 
 [node name="Player" parent="." instance=ExtResource( 2 )]
-position = Vector2( 642.94, 669.056 )
+position = Vector2( 644.584, 652.681 )
 
 [node name="Border_Top" type="KinematicBody2D" parent="." groups=[
 "top",
