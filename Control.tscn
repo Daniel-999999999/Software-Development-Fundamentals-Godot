@@ -1,0 +1,98 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Menu/Menu.gd" type="Script" id=1]
+[ext_resource path="res://Images/the_razor_crest___top_view_by_superherotimefan_deaq55q-pre.png" type="Texture" id=2]
+
+[node name="Main Menu" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="layout" type="VBoxContainer" parent="."]
+margin_right = 1280.0
+margin_bottom = 720.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Title" type="HBoxContainer" parent="layout"]
+margin_right = 1280.0
+margin_bottom = 14.0
+
+[node name="Label" type="Label" parent="layout/Title"]
+anchor_left = 0.43
+anchor_right = 0.445
+margin_right = 190.0
+margin_bottom = 14.0
+text = "Space Invaders Clone 2022"
+align = 1
+valign = 1
+uppercase = true
+
+[node name="Main" type="HBoxContainer" parent="layout"]
+anchor_left = 0.004
+anchor_right = 0.338
+margin_top = 18.0
+margin_right = 1280.0
+margin_bottom = 86.0
+
+[node name="ScreenShot" type="TextureRect" parent="layout/Main"]
+margin_bottom = 68.0
+
+[node name="the_razor_crest___top_view_by_superherotimefan_deaq55q-pre" type="Sprite" parent="layout/Main/ScreenShot"]
+position = Vector2( 238.475, 348.401 )
+scale = Vector2( 0.592965, 0.695899 )
+texture = ExtResource( 2 )
+
+[node name="VBoxContainer" type="VBoxContainer" parent="layout/Main"]
+margin_left = 4.0
+margin_right = 87.0
+margin_bottom = 68.0
+
+[node name="Quit" type="Button" parent="layout/Main/VBoxContainer"]
+anchor_left = 7.339
+anchor_top = 8.424
+anchor_right = 7.339
+anchor_bottom = 9.332
+margin_right = 83.0
+margin_bottom = 20.0
+text = "Quit"
+
+[node name="Options" type="Button" parent="layout/Main/VBoxContainer"]
+anchor_left = 7.353
+anchor_top = 5.076
+anchor_right = 7.353
+anchor_bottom = 6.339
+margin_top = 24.0
+margin_right = 83.0
+margin_bottom = 44.0
+text = "Options"
+
+[node name="Start" type="Button" parent="layout/Main/VBoxContainer"]
+anchor_left = 7.359
+anchor_top = 1.585
+anchor_right = 7.366
+anchor_bottom = 2.823
+margin_top = 48.0
+margin_right = 83.0
+margin_bottom = 68.0
+text = "Start Game"
+
+[node name="Credits" type="HBoxContainer" parent="layout"]
+margin_top = 90.0
+margin_right = 1280.0
+margin_bottom = 104.0
+
+[node name="Label" type="Label" parent="layout/Credits"]
+anchor_left = 0.889
+anchor_top = 43.949
+anchor_right = 1.0
+anchor_bottom = 43.949
+margin_right = 141.0
+margin_bottom = 14.0
+text = "Copyright Daniel 2022"
