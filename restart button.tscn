@@ -1,0 +1,21 @@
+[gd_scene format=2]
+
+[node name="Button" type="Button"]
+margin_left = 513.774
+margin_top = 107.534
+margin_right = 798.774
+margin_bottom = 285.534
+text = "restart"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Button" type="Button" parent="."]
+margin_left = -3.30664
+margin_top = 353.934
+margin_right = 278.693
+margin_bottom = 494.934
+text = "quit"
+__meta__ = {
+"_edit_use_anchors_": false
+}
