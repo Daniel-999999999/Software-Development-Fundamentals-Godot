@@ -1,0 +1,33 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://OptionsMenu/return.gd" type="Script" id=1]
+[ext_resource path="res://OptionsMenu/rapidFireSelect.gd" type="Script" id=2]
+
+[node name="OptionsMenu" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Layout" type="VBoxContainer" parent="."]
+margin_right = 40.0
+margin_bottom = 40.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="rapidFireSelect" type="CheckButton" parent="Layout"]
+margin_right = 148.0
+margin_bottom = 40.0
+text = "Rapid Fire"
+script = ExtResource( 2 )
+
+[node name="return" type="Button" parent="Layout"]
+margin_top = 44.0
+margin_right = 148.0
+margin_bottom = 64.0
+text = "Return to main menu"
+script = ExtResource( 1 )
+[connection signal="toggled" from="Layout/rapidFireSelect" to="Layout/rapidFireSelect" method="_on_rapidFireSelect_toggled"]
+[connection signal="pressed" from="Layout/return" to="Layout/return" method="_on_return_pressed"]
