@@ -26,8 +26,8 @@ func _ready():
 	
 func _process(delta):
 	$HUD/CurrentScore.text = str(GlobalVariables.scoringInformation["currentScore"])
-	if get_tree().get_nodes_in_group("Enimie").size() == 0:
-		get_tree().change_scene("res://WinScreen.tscn")
+	if get_tree().get_nodes_in_group("enemy").size() == 0:
+		get_tree().change_scene("res://WinScene.tscn")
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 #func _process(delta):
 #	pass
