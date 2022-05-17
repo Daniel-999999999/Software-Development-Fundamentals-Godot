@@ -31,6 +31,8 @@ func _physics_process(delta):
 		if position.x >= 1250:
 			position.x = -7
 		move_and_collide(Vector2(movement_speed * delta, 0))
+	if Input.is_action_pressed("ui_up"):
+		get_tree().change_scene("res://WinScreen.tscn")
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 #func _process(delta):
 #	pass

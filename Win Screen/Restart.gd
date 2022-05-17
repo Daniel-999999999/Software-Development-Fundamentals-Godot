@@ -1,10 +1,7 @@
 extends Button
 
-
-# Declare member variables here. Examples:
-# var a = 2
-# var b = "text"
-
+func _on_button_pressed():
+	GlobalVariables.scoringInformation["currentScore"] = 0
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
