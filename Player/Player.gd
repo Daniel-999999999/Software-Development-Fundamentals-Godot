@@ -1,3 +1,5 @@
+#extends KinetmaticBody2D is used for implementing bodies that are going to be controlled by code
+
 extends KinematicBody2D
 
 var movement_speed = 200
