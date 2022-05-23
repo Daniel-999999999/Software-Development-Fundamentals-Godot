@@ -1,5 +1,8 @@
+#this code allows the player to move, shoot, collide with border, and use rapid fire
 #extends KinetmaticBody2D is used for implementing bodies that are going to be controlled by code
-
+#line 6 to 7 sets the bullet speed/prejectile once it has launched from the player, and line 7 preload the bullet ready to  be shot
+#line 18 to 22 checks if the global variable for rapid fire has been selected if so then it allows it so that you can hold spacebar and it iwll constatnly shoot, and it has not been checked then it will use code from line 24 to 27, making it so that you shoot one bullet every time space bar is pressed
+#line 30 to 38 make it so the if it detects a input either on the left or right arrow key then it will play the code below it being able to move the player to the left or the right at a certain speed that has been created
 extends KinematicBody2D
 
 var movement_speed = 200

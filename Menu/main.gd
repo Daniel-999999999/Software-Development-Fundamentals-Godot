@@ -1,3 +1,6 @@
+#This set of code is the finction process of the main menu layout, and allows then buttons to operate, and creates, saves and load the highscore file.
+#line 8 to 15 allows the file to be created testing if there is a file on line 10 if not then it creates new file, then load the file, and reads if there has been a score there if not it will create a score once the game has been played
+#line 18 to 21 allows fore the buttons that are on screent to have a function, and prints out "Changing scene" to the user
 extends Control
 
 func _ready():

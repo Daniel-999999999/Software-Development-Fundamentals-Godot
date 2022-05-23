@@ -1,3 +1,5 @@
+#this set of code allows for the rapidifre option to be enabled
+#line 21 to 22 allows for the checkbox of the rapidfire option to be selected and deselected and if so then it will send a signal to the global variables
 extends CheckButton
 
 

@@ -1,3 +1,5 @@
+#screen is displayed once you have won
+#line 7 to 21 allows the highscore that the user has got to be saved in a document by opening an already existing file for the game, and then edits the file putting in the highscore and saving the file, and then resets the currentscore for the game back to 0
 extends Node2D
 
 func _ready():

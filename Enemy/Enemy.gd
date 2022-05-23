@@ -1,3 +1,7 @@
+#This set of code allows the movement, destruction and shooting of the enemys
+#line 9 allows the enemy to collide with barriers/walls
+#line 12 to 19 make it so that if the most far out enemy on left hits the barrier it will make all the enemies move to the right so they do not go off screen same goes with the right barrier
+#line 22 and so on make it so that there is RNG (Random number generator) and it applies to each individual enemys, where if it gets a certain number then it will create a bullet on the enemie making it allow to shoot downwards at the player
 extends KinematicBody2D
 
 var bullet = preload("res://Bullet-Enemy/Bullet-Enemy.tscn")

@@ -1,3 +1,5 @@
+#used for all the global variables
+#all the code here allow for certain variables to activate or deactives but are always activated due to other cide
 extends Node
 
 var rapidFire = false

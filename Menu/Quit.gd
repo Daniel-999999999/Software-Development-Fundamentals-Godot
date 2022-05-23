@@ -1,3 +1,5 @@
+#Allows for the suer to close the program
+#line 18 to 19 allows for the program to shutdown if it is clicked
 extends Button
 
 

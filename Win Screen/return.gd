@@ -1,3 +1,7 @@
+#this allows for the buttons to be operated
+#line 21 to 22 allows for the quit button to close the game once clicked
+#line 26 to 27 changes screen to the options menu
+#line 31 ti 32 restarts the game taking it back to the actual game
 extends Button
 
 

@@ -1,3 +1,5 @@
+#return button to main menu
+#if the button has been presssed the line 21 to 22 will activatie and tell the program to return to the mian scene
 extends Button
 
 

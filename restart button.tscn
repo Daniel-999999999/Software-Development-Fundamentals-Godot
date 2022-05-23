@@ -6,9 +6,6 @@ margin_top = 107.534
 margin_right = 798.774
 margin_bottom = 285.534
 text = "restart"
-__meta__ = {
-"_edit_use_anchors_": false
-}
 
 [node name="Button" type="Button" parent="."]
 margin_left = -3.30664

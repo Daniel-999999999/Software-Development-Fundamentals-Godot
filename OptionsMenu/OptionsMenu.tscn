@@ -6,9 +6,6 @@
 [node name="OptionsMenu" type="Control"]
 anchor_right = 1.0
 anchor_bottom = 1.0
-__meta__ = {
-"_edit_use_anchors_": false
-}
 
 [node name="Layout" type="VBoxContainer" parent="."]
 margin_right = 40.0
@@ -29,5 +26,6 @@ margin_right = 148.0
 margin_bottom = 64.0
 text = "Return to main menu"
 script = ExtResource( 1 )
+
 [connection signal="toggled" from="Layout/rapidFireSelect" to="Layout/rapidFireSelect" method="_on_rapidFireSelect_toggled"]
 [connection signal="pressed" from="Layout/return" to="Layout/return" method="_on_return_pressed"]

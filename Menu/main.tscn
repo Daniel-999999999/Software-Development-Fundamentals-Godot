@@ -91,4 +91,5 @@ margin_bottom = 104.0
 margin_right = 141.0
 margin_bottom = 14.0
 text = "Copyright Daniel 2022"
+
 [connection signal="pressed" from="layout/Main/Buttons/Quit" to="." method="_on_Quit_pressed"]
